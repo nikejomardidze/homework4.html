@@ -1,0 +1,49 @@
+* {
+    /*universal*/
+}
+
+: root {
+
+}
+
+header {
+    background-color:aqua;
+}
+header hover {
+    background-color: blue;
+}
+
+nav{
+    background-color:brown;
+}
+
+.title{
+    color:darkblue;
+}
+
+p {
+    background-color: blanchedalmond;
+}
+
+li{color:white;}
+
+#list{
+    border: 5px solid black;
+}
+#list > li {
+    background-color: grey;
+}
+
+input:focus {
+    background-color: red;
+}
+li:first-child {
+    color: white;
+}
+
+nav,
+main,
+boarder,
+header {
+    
+}

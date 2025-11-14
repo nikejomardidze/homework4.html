@@ -1,0 +1,7 @@
+div {display: inline;}
+span {
+    display: inline-block;
+    width:70px;
+    height:30px;
+    background-color: antiquewhite;
+}
