@@ -1,0 +1,426 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+
+  html,body {
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 200px;
+    height: 100%;
+  }
+  
+  header {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 48px;
+    height: 12vh;
+    align-items: center;
+  }
+  
+  ul {
+    column-gap: 16px;
+    display: none;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  .burger-menu {
+    display: block;
+  }
+  
+  .brand-image {
+    background-color: red;
+    height: 70vh;
+    background-image: url("https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+  }
+  
+  .brand-title {
+    color: rgb(246, 243, 243);
+    position: absolute;
+    bottom: 120px;
+    left: 150px;
+  }
+  
+  .brand-title > p {
+    font-size: 24px;
+    font-weight: 200;
+  }
+  
+  .brand-title > h4 {
+    font-size: 32px;
+  }
+  
+  .sections-container {
+    display: flex;
+    justify-content: center;
+    column-gap: 24px;
+    position: relative;
+    bottom: 70px;
+  }
+  
+  .sections-container > section {
+    background-color: rgb(149, 171, 233);
+    width: 25vw;
+    padding: 8px 8px 24px 8px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+  }
+  
+  .section-two {
+    position: relative;
+    top: 24px;
+  }
+  
+  .section-three {
+    position: relative;
+    top: 48px;
+  }
+  
+  .section-image {
+    width: 100%;
+  }
+  
+  h3 {
+    margin: 0px 16%;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    margin-left: 100px;
+    font-size: 32px;
+    color: rgb(18, 17, 17);
+  }
+  
+  .traditions {
+    display: flex;
+    justify-content: center;
+    padding: 0px 48px;
+    column-gap: 24px;
+  }
+  
+  .traditions-item {
+    height: 250px;
+    background-color: rgb(149, 171, 233);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .traditions-item > img {
+    width: 100%;
+    max-height: 70%;
+    object-fit: cover;
+  }
+  
+  .traditions-item > h4 {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .events-title{
+    margin: 0px 16%;
+    margin-bottom: 40px;
+    margin-top: 90px;
+    margin-left: 20px;
+  }
+
+  .events-box{
+    width:600px;
+    height: 280px;
+    margin:0 auto;
+    padding: 20px;
+    box-shadow:0 4px 40px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    text-align: center;
+    font-size:20px;
+  }
+
+  .events-box ul {
+    display: flex;
+    flex-direction: column; 
+    gap: 30px;               
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;     
+  }
+
+  .logos{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+    text-align: center;
+}
+
+  .logo-two{
+    margin-top: 60px;
+  }
+
+  .logo-three{
+    margin-right: 50px;
+    margin-top: 40px;
+  }
+  .logo-one >p{
+    margin-top: 10px;
+    font-size: 18px;
+  }
+
+  .logo-two>p{
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  .logo-three>p{
+    margin-top: 10px;
+    font-size: 18px;
+  }
+
+  @media (min-width: 768px) {
+    ul {
+      display: flex;
+    }
+    .burger-menu {
+      display: none;
+    }
+  }
+
+  .mountain-pattern{
+    display: flex;
+    align-items: center;
+  }
+  .mountain{
+    margin-top: 90px;
+    margin-left: 10%;
+  }
+  .pattern{
+    margin-top: 90px;
+    background-image: url("https://i.pinimg.com/1200x/95/ab/9b/95ab9b350843181b26c3f2c78737035b.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    filter: brightness(80%);
+  }
+  .pattern>h2{
+    margin-top: 20%;
+    margin-left: 25px;
+    font-size: 28px;
+    text-align: center;
+  }
+  .pattern>p{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 15%;
+    width: 600px;
+  }
+  .pattern>button{
+    font-size: 23px;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 110px;
+    background-color: rgb(119, 187, 255);
+    padding:5px;
+  }
+
+  .main{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .info{
+    width: 500px;
+    margin-top: 130px;
+    column-gap: 5px;
+    width: 500px;
+  }
+  .side-by-side{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+  }  
+  .logos-two{
+    padding-right: 120px;
+    display: flex;
+    align-items: center;
+    box-shadow:0 4px 20px; 
+    border-radius: 10px;
+  }
+  .info>h1{
+    font-size: 34px;
+  }
+  .info>p{
+    font-size: 20px;
+    margin-top: 45px;
+  }
+  .info>button{
+    margin-top: 45px;
+    font-size: 20px;
+    background-color: rgb(59, 59, 247);
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+  }
+  .trusted-by{
+    text-align: center;
+    margin-top: 160px;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .icons{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .church-pattern{
+    display: flex;
+    align-items: center;
+    margin-top: 130px;
+  }
+
+  .pattern-two{
+    background-image: url("https://i.pinimg.com/1200x/95/ab/9b/95ab9b350843181b26c3f2c78737035b.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+    filter: brightness(80%);
+  }
+  .pattern-two>h2{
+    margin-top: 9%;
+    margin-left: 25px;
+    font-size: 28px;
+    text-align: center
+  }
+
+  .pattern-two>p{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 8%;
+    width: 800px;
+  }
+ .pattern-two>button{
+    font-size: 23px;
+    text-align: center;
+    margin-top: 9%;
+    margin-left: 200px;
+    background-color: rgb(119, 187, 255);
+    padding:5px;
+    cursor: pointer;
+  }
+
+
+  @media (max-width: 768px) {
+    .sections-container {
+      flex-direction: column;
+      align-items: center;
+    }
+    .sections-container > section {
+      width: 80vw;
+    }
+  
+    .traditions {
+      padding: 0px 12px;
+    }
+  
+    .traditions-two,
+    .traditions-three {
+      display: none;
+    }
+  
+    .traditions-item > img {
+      max-height: 80%;
+    }
+  }
+
+
+  footer {
+    background: #222;
+    color: white;
+    padding: 40px;
+  }
+  
+  .footer-title {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .footer-title h4 {
+    font-size: 20px;
+  }
+  
+  .footer-main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .footer-column p {
+    margin: 8px;
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .logos {
+      flex-direction: column;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .mountain-pattern {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  @media (max-width: 768px) {
+    .footer-title,
+    .footer-main {
+      flex-direction: column;
+    }
+ } 
+  
+
+ /*.side-panel {
+    position: fixed;
+    background-color: gray;
+    width: 25vw;
+    height: 100vh;
+  } 
+  
+   @media screen and (min-width: 600px) and (max-width: 900px) {
+    .side-panel {
+      display: inline;
+    }
+  } 
+  
+   @media screen and (max-width: 600px) {
+    .side-panel {
+      display: none;
+    }
+  
+    body {
+      background-color: rgb(128, 112, 112);
+    }
+  }
+  
+  @media screen and (min-width: 601px) and (max-width: 1000px) {
+    body {
+      background-color: rgb(150, 215, 89);
+    }
+  }
+  
+  @media screen and (min-width: 1001px) {
+    body {
+      background-color: coral;
+    }
+  } */
